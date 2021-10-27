@@ -3,7 +3,7 @@
 _mayaver=2022
 
 pkgname=maya-bifrost
-pkgver=2.2.1.0
+pkgver=2.2.1.2
 pkgrel=1
 pkgdesc='Autodesk Maya Bifrost Plugin'
 arch=('x86_64')
@@ -13,7 +13,7 @@ depends=('maya>=2022' 'maya<2023.0')
 
 DLAGENTS+=('manual::/usr/bin/echo \ \ Note: Please download the package manually from the official website')
 source=("manual://Bifrost$_mayaver-$pkgver-$pkgver-1.x86_64.rpm")
-sha256sums=('332ccaa87c45f520352ddbffb774e44cba956a8ff122ba0555332a48309f4f89')
+sha256sums=('0186187e20e904dfc360f0ad685be2204a094e8c9701093f35865f7b8c120068')
 
 options=(!strip)
 
